@@ -6,6 +6,7 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('ip/ListIp');
+        //Login
+        return view('login/Login');
     }
 }

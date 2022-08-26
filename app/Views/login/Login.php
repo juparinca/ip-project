@@ -3,13 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
+    <title>Login</title>
 </head>
 <body>
-<!-- Ejemplo -->
-<!--
-    <h2>Ip: <?php echo $ips[0]['ip']; ?></h2>
--->
-
+    <h2>Login</h2>
 </body>
 </html>
