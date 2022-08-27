@@ -1,15 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
-<body>
-<!-- Ejemplo -->
-<!--
-    <h2>Ip: <?php echo $ips[0]['ip']; ?></h2>
--->
 
+<body class="container-fluid mt-4">
+    <center>
+        <h2>Network monitoring</h2>
+    </center>
+    <div class="nav justify-content-end">
+
+        <button type="button" class="btn btn-danger mb-3">Cerrar sesión</button>
+    </div>
+
+    <nav class="navbar navbar-dark bg-primary">
+        <div class="container-fluid">
+            <div class="p-2">
+                <button type="button" class="btn btn-success">Registrar Ip</button>
+                <button type="button" class="btn btn-secondary">Depurar Lista</button>
+            </div>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                <button class="btn btn-secondary" type="submit">Buscar</button>
+            </form>
+        </div>
+    </nav>
+
+    <table class="table">
+        <thead>
+            <tr class="table-dark">
+                <th scope="col">IP</th>
+                <th scope="col">País</th>
+                <th scope="col"># Reporte</th>
+                <th scope="col">Categoría</th>
+                <th scope="col">Fecha reporte</th>
+                <th scope="col">Fecha bloqueo</th>
+                <th scope="col">Estado</th>
+                <th scope="col">Fecha desbloqueo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php foreach ($ips as $ip) { ?>
+            <td><?php echo $ip->ip; ?></td>
+            <td><?php echo $ip->nomb_pais; ?></td>
+            <td><?php echo $ip->num_reporte; ?></td>
+            <td><?php echo $ip->nomb_categoria; ?></td>
+            <td><?php echo $ip->fecha_reporte; ?></td>
+            <td><?php echo $ip->fecha_bloqueo; ?></td>
+            <td><?php echo $ip->estado; ?></td>
+            <td><?php echo $ip->fecha_desbloqueo; ?></td>
+            </tr>
+            <?php
+}?>
+        </tbody>
+    </table>
 </body>
+
 </html>

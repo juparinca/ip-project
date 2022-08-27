@@ -19,7 +19,7 @@
             <br><br><br><br><br><br><br><br>
             
           <h1>Login</h1>
-          <form action="<?php echo base_url('/login') ?>" method="POST">
+          <form action="<?php echo base_url('/login'); ?>" method="POST">
             <label for="usuario">Usuario</label>
             <input type="text" name="usuario" class="form-control" required="">
             <label for="password">Password</label>
@@ -33,4 +33,3 @@
     </div>
     
   </body>
-</html>
