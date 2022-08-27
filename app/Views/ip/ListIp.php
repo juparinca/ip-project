@@ -6,6 +6,10 @@
     <title>Dashboard</title>
 </head>
 <body>
-    
+<!-- Ejemplo -->
+<!--
+    <h2>Ip: <?php echo $ips[0]['ip']; ?></h2>
+-->
+
 </body>
 </html>
