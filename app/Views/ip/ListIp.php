@@ -44,6 +44,10 @@
                 <th scope="col">Fecha bloqueo</th>
                 <th scope="col">Estado</th>
                 <th scope="col">Fecha desbloqueo</th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+
             </tr>
         </thead>
         <tbody>
@@ -56,6 +60,14 @@
             <td><?php echo $ip->fecha_bloqueo; ?></td>
             <td><?php echo $ip->estado; ?></td>
             <td><?php echo $ip->fecha_desbloqueo; ?></td>
+
+
+            <td>   
+            <th><button type="button" class="btn btn-primary">Editar</button></th>
+            <th><button type="button" class="btn btn-info">Desbloqueo</button></th>
+            </td>
+            
+
             </tr>
             <?php
 }?>
