@@ -28,14 +28,57 @@ class Ips extends Controller
 
     public function getAllIpWithJoin()
     {
-        $db = db_connect();
-        $query = $db->query('SELECT ip, (SELECT nomb_pais FROM paises as p WHERE p.id_pais = i.id_pais ) as nomb_pais, 
-        num_reporte, (SELECT nomb_categoria FROM categorias as c WHERE c.id_categoria = i.id_categoria) as nomb_categoria, fecha_reporte, fecha_bloqueo, 
-        (SELECT estado FROM estados as e WHERE e.id_estado = i.id_estado) as estado, fecha_desbloqueo
-        FROM ip as i;');
-
-        $datos['ips'] = $query->getResult();
+        $ip = new IpModel();
+        $datos['ips'] = $ip->getAllIpWithJoin();
 
         return $datos;
+    }
+
+    public function insertOrUpdate($data, $id = false)
+    {
+        $ip = new IpModel();
+        //Ejemplo de data a insert o update
+        /* $id = 19;
+        $data = [
+            'ip' => '192.55.22.2',
+            'id_pais' => 3,
+            'num_reporte' => 6211,
+            'id_categoria' => 3,
+            'id_estado' => 2,
+        ]; */
+
+        $dataIp = [
+            'id_ip' => $id,
+            'ip' => $data['ip'],
+        ];
+
+        if ($this->validIfExistIp($dataIp)) {
+            //Update
+            $this->validInsertOrUpdateIp($data, true, $id);
+        } else {
+            //Insert
+            $this->validInsertOrUpdateIp($data, false);
+        }
+    }
+
+    public function validIfExistIp($dataIp)
+    {
+        $ip = new IpModel();
+
+        return $ip->validIfExistIp($dataIp);
+    }
+
+    public function validInsertOrUpdateIp($data, $exist, $id = false)
+    {
+        $ip = new IpModel();
+        if (!$exist) {
+            $ip->insertOrUpdateIp($data);
+
+            return 'El registro se ha insertado/actualizado con éxito';
+        } else {
+            $ip->insertOrUpdateIp($data, $id);
+
+            return 'El registro se ha actualizado con éxito';
+        }
     }
 }

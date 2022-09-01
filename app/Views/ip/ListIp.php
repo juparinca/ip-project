@@ -63,8 +63,6 @@
             <th><button type="button" class="btn btn-primary">Editar</button></th>
             <th><button type="button" class="btn btn-info">Desbloqueo</button></th>
             </td>
-            
-
             </tr>
             <?php
 }?>

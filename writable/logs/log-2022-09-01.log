@@ -66,3 +66,1286 @@ in SYSTEMPATH\Commands\Database\ShowTableInfo.php on line 53.
 15 SYSTEMPATH\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
 16 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
 17 ROOTPATH\spark(98): CodeIgniter\CLI\Console->run()
+CRITICAL - 2022-09-01 13:12:06 --> Call to undefined method App\Models\IpModel::getAllIpWithJoin2
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Ips.php(32): CodeIgniter\Model->__call('getAllIpWithJoin2', [])
+ 2 APPPATH\Controllers\Ips.php(18): App\Controllers\Ips->getAllIpWithJoin()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:12:19 --> Undefined variable $ip
+in APPPATH\Controllers\Ips.php on line 32.
+ 1 APPPATH\Controllers\Ips.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ip', 'APPPATH\\Controllers\\Ips.php', 32)
+ 2 APPPATH\Controllers\Ips.php(19): App\Controllers\Ips->getAllIpWithJoin()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:12:30 --> Undefined variable $ip
+in APPPATH\Controllers\Ips.php on line 33.
+ 1 APPPATH\Controllers\Ips.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ip', 'APPPATH\\Controllers\\Ips.php', 33)
+ 2 APPPATH\Controllers\Ips.php(20): App\Controllers\Ips->getAllIpWithJoin()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:26:35 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 49.
+ 1 APPPATH\Controllers\Ips.php(49): var_dump()
+ 2 APPPATH\Controllers\Ips.php(18): App\Controllers\Ips->insertOrUpdate([...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:26:45 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 49.
+ 1 APPPATH\Controllers\Ips.php(49): var_dump()
+ 2 APPPATH\Controllers\Ips.php(18): App\Controllers\Ips->insertOrUpdate([...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:26:46 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 49.
+ 1 APPPATH\Controllers\Ips.php(49): var_dump()
+ 2 APPPATH\Controllers\Ips.php(18): App\Controllers\Ips->insertOrUpdate([...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:26:47 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 49.
+ 1 APPPATH\Controllers\Ips.php(49): var_dump()
+ 2 APPPATH\Controllers\Ips.php(18): App\Controllers\Ips->insertOrUpdate([...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:29:45 --> Too few arguments to function App\Controllers\Ips::insertOrUpdate(), 0 passed in C:\xampp\htdocs\ip-project\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Ips.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:30:17 --> Too few arguments to function App\Controllers\Ips::insertOrUpdate(), 0 passed in C:\xampp\htdocs\ip-project\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Ips.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:30:17 --> Too few arguments to function App\Controllers\Ips::insertOrUpdate(), 0 passed in C:\xampp\htdocs\ip-project\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Ips.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:30:21 --> Too few arguments to function App\Controllers\Ips::insertOrUpdate(), 0 passed in C:\xampp\htdocs\ip-project\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Ips.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:30:36 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 47.
+ 1 APPPATH\Controllers\Ips.php(47): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:30:37 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 47.
+ 1 APPPATH\Controllers\Ips.php(47): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:30:37 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 47.
+ 1 APPPATH\Controllers\Ips.php(47): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:30:47 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 47.
+ 1 APPPATH\Controllers\Ips.php(47): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:30:48 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 47.
+ 1 APPPATH\Controllers\Ips.php(47): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:31:07 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 47.
+ 1 APPPATH\Controllers\Ips.php(47): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:31:08 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 47.
+ 1 APPPATH\Controllers\Ips.php(47): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:31:08 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 47.
+ 1 APPPATH\Controllers\Ips.php(47): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:31:14 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 47.
+ 1 APPPATH\Controllers\Ips.php(47): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:31:22 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 47.
+ 1 APPPATH\Controllers\Ips.php(47): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:31:23 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 47.
+ 1 APPPATH\Controllers\Ips.php(47): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:31:23 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 47.
+ 1 APPPATH\Controllers\Ips.php(47): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:31:24 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 47.
+ 1 APPPATH\Controllers\Ips.php(47): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:31:24 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 47.
+ 1 APPPATH\Controllers\Ips.php(47): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:31:24 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 47.
+ 1 APPPATH\Controllers\Ips.php(47): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:31:24 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 47.
+ 1 APPPATH\Controllers\Ips.php(47): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:31:24 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 47.
+ 1 APPPATH\Controllers\Ips.php(47): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:31:24 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 47.
+ 1 APPPATH\Controllers\Ips.php(47): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:31:25 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 47.
+ 1 APPPATH\Controllers\Ips.php(47): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:31:25 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 47.
+ 1 APPPATH\Controllers\Ips.php(47): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:31:25 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 47.
+ 1 APPPATH\Controllers\Ips.php(47): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:31:25 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 47.
+ 1 APPPATH\Controllers\Ips.php(47): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:31:25 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 47.
+ 1 APPPATH\Controllers\Ips.php(47): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:31:25 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 47.
+ 1 APPPATH\Controllers\Ips.php(47): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:31:25 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 47.
+ 1 APPPATH\Controllers\Ips.php(47): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:31:25 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 47.
+ 1 APPPATH\Controllers\Ips.php(47): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:31:26 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 47.
+ 1 APPPATH\Controllers\Ips.php(47): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:31:26 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 47.
+ 1 APPPATH\Controllers\Ips.php(47): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:31:26 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 47.
+ 1 APPPATH\Controllers\Ips.php(47): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:31:26 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 47.
+ 1 APPPATH\Controllers\Ips.php(47): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:32:35 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 47.
+ 1 APPPATH\Controllers\Ips.php(47): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->index2()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:33:13 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Ips.php on line 47.
+ 1 APPPATH\Controllers\Ips.php(47): var_dump()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:33:26 --> Too few arguments to function App\Controllers\Ips::insertOrUpdate(), 0 passed in C:\xampp\htdocs\ip-project\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Ips.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:37:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+in APPPATH\Models\IpModel.php on line 32.
+ 1 APPPATH\Controllers\Ips.php(47): App\Models\IpModel->insertOrUpdateIp([...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate([...])
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:37:50 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+in APPPATH\Models\IpModel.php on line 31.
+ 1 APPPATH\Controllers\Ips.php(47): App\Models\IpModel->insertOrUpdateIp([...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate([...])
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:38:25 --> Undefined variable $builder
+in APPPATH\Models\IpModel.php on line 31.
+ 1 APPPATH\Models\IpModel.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $builder', 'APPPATH\\Models\\IpModel.php', 31)
+ 2 APPPATH\Controllers\Ips.php(47): App\Models\IpModel->insertOrUpdateIp([...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate([...])
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:38:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+in APPPATH\Models\IpModel.php on line 31.
+ 1 APPPATH\Controllers\Ips.php(47): App\Models\IpModel->insertOrUpdateIp([...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate([...])
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:39:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+in APPPATH\Models\IpModel.php on line 31.
+ 1 APPPATH\Controllers\Ips.php(47): App\Models\IpModel->insertOrUpdateIp([...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate([...])
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 13:39:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+in APPPATH\Models\IpModel.php on line 31.
+ 1 APPPATH\Controllers\Ips.php(47): App\Models\IpModel->insertOrUpdateIp([...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate([...])
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-01 13:41:21 --> mysqli_sql_exception: Unknown column 'id' in 'field list' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ip...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ip...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ip...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ip...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(47): App\Models\IpModel->insertOrUpdateIp(Array)
+#6 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-01 13:41:42 --> mysqli_sql_exception: Unknown column 'id' in 'field list' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ip...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ip...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ip...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ip...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(47): App\Models\IpModel->insertOrUpdateIp(Array)
+#6 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-01 13:41:43 --> mysqli_sql_exception: Unknown column 'id' in 'field list' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ip...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ip...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ip...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ip...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(47): App\Models\IpModel->insertOrUpdateIp(Array)
+#6 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-01 13:42:28 --> mysqli_sql_exception: Unknown column 'id' in 'field list' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ip...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ip...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ip...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ip...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(47): App\Models\IpModel->insertOrUpdateIp(Array)
+#6 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-01 13:42:43 --> mysqli_sql_exception: Unknown column 'id' in 'field list' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ip...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ip...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ip...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ip...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(47): App\Models\IpModel->insertOrUpdateIp(Array)
+#6 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-01 13:43:03 --> mysqli_sql_exception: Unknown column 'id' in 'field list' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ip...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ip...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ip...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ip...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(47): App\Models\IpModel->insertOrUpdateIp(Array)
+#6 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-01 13:43:04 --> mysqli_sql_exception: Unknown column 'id' in 'field list' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ip...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ip...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ip...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ip...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(47): App\Models\IpModel->insertOrUpdateIp(Array)
+#6 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-01 13:43:04 --> mysqli_sql_exception: Unknown column 'id' in 'field list' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ip...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ip...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ip...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ip...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(47): App\Models\IpModel->insertOrUpdateIp(Array)
+#6 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-01 13:43:04 --> mysqli_sql_exception: Unknown column 'id' in 'field list' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ip...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ip...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ip...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ip...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(47): App\Models\IpModel->insertOrUpdateIp(Array)
+#6 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-01 14:45:36 --> mysqli_sql_exception: Unknown column 'id' in 'field list' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ip...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ip...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ip...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ip...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(33): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(47): App\Models\IpModel->insertOrUpdateIp(Array)
+#6 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-01 14:46:02 --> mysqli_sql_exception: Unknown column 'id' in 'field list' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ip...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ip...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ip...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ip...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(47): App\Models\IpModel->insertOrUpdateIp(Array)
+#6 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-01 14:50:13 --> mysqli_sql_exception: Unknown column 'ipds' in 'field list' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ip...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ip...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ip...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ip...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(33): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(47): App\Models\IpModel->insertOrUpdateIp(Array)
+#6 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-09-01 14:59:08 --> Too few arguments to function App\Models\IpModel::validIfExistIp(), 0 passed in C:\xampp\htdocs\ip-project\app\Controllers\Ips.php on line 57 and exactly 1 expected
+in APPPATH\Models\IpModel.php on line 36.
+ 1 APPPATH\Controllers\Ips.php(57): App\Models\IpModel->validIfExistIp()
+ 2 APPPATH\Controllers\Ips.php(49): App\Controllers\Ips->validIfExistIp(Object(App\Models\IpModel))
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate([...])
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 17:38:38 --> Too few arguments to function App\Models\IpModel::validIfExistIp(), 0 passed in C:\xampp\htdocs\ip-project\app\Controllers\Ips.php on line 58 and exactly 1 expected
+in APPPATH\Models\IpModel.php on line 36.
+ 1 APPPATH\Controllers\Ips.php(58): App\Models\IpModel->validIfExistIp()
+ 2 APPPATH\Controllers\Ips.php(49): App\Controllers\Ips->validIfExistIp(Object(App\Models\IpModel))
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate([...])
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 17:38:52 --> Too few arguments to function App\Models\IpModel::validIfExistIp(), 0 passed in C:\xampp\htdocs\ip-project\app\Controllers\Ips.php on line 58 and exactly 1 expected
+in APPPATH\Models\IpModel.php on line 36.
+ 1 APPPATH\Controllers\Ips.php(58): App\Models\IpModel->validIfExistIp()
+ 2 APPPATH\Controllers\Ips.php(49): App\Controllers\Ips->validIfExistIp(Object(App\Models\IpModel))
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate([...])
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 17:39:14 --> Too few arguments to function App\Models\IpModel::validIfExistIp(), 0 passed in C:\xampp\htdocs\ip-project\app\Controllers\Ips.php on line 58 and exactly 1 expected
+in APPPATH\Models\IpModel.php on line 36.
+ 1 APPPATH\Controllers\Ips.php(58): App\Models\IpModel->validIfExistIp()
+ 2 APPPATH\Controllers\Ips.php(49): App\Controllers\Ips->validIfExistIp(Object(App\Models\IpModel))
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate([...])
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 17:41:52 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Models\IpModel.php on line 41.
+ 1 APPPATH\Controllers\Ips.php(58): App\Models\IpModel->validIfExistIp('192.55.22.1')
+ 2 APPPATH\Controllers\Ips.php(49): App\Controllers\Ips->validIfExistIp('192.55.22.1')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate([...])
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 17:51:37 --> Too few arguments to function App\Controllers\Ips::insertOrUpdate(), 1 passed in C:\xampp\htdocs\ip-project\system\CodeIgniter.php on line 904 and exactly 2 expected
+in APPPATH\Controllers\Ips.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate('$1')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 17:51:53 --> Too few arguments to function App\Controllers\Ips::insertOrUpdate(), 1 passed in C:\xampp\htdocs\ip-project\system\CodeIgniter.php on line 904 and exactly 2 expected
+in APPPATH\Controllers\Ips.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate('$1')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 17:52:16 --> Too few arguments to function App\Controllers\Ips::insertOrUpdate(), 1 passed in C:\xampp\htdocs\ip-project\system\CodeIgniter.php on line 904 and exactly 2 expected
+in APPPATH\Controllers\Ips.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate('$1')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 17:52:18 --> Too few arguments to function App\Controllers\Ips::insertOrUpdate(), 1 passed in C:\xampp\htdocs\ip-project\system\CodeIgniter.php on line 904 and exactly 2 expected
+in APPPATH\Controllers\Ips.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate('$1')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 17:52:18 --> Too few arguments to function App\Controllers\Ips::insertOrUpdate(), 1 passed in C:\xampp\htdocs\ip-project\system\CodeIgniter.php on line 904 and exactly 2 expected
+in APPPATH\Controllers\Ips.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate('$1')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 18:14:24 --> Undefined variable $ip
+in APPPATH\Controllers\Ips.php on line 79.
+ 1 APPPATH\Controllers\Ips.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ip', 'APPPATH\\Controllers\\Ips.php', 79)
+ 2 APPPATH\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp([...], true, 17)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate([...], 17)
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 18:15:25 --> Undefined variable $ip
+in APPPATH\Controllers\Ips.php on line 79.
+ 1 APPPATH\Controllers\Ips.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ip', 'APPPATH\\Controllers\\Ips.php', 79)
+ 2 APPPATH\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp([...], true, 17)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate([...], 17)
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 18:17:04 --> Undefined variable $ip
+in APPPATH\Controllers\Ips.php on line 79.
+ 1 APPPATH\Controllers\Ips.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ip', 'APPPATH\\Controllers\\Ips.php', 79)
+ 2 APPPATH\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp([...], true, 17)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate([...], 17)
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 18:17:05 --> Undefined variable $ip
+in APPPATH\Controllers\Ips.php on line 79.
+ 1 APPPATH\Controllers\Ips.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ip', 'APPPATH\\Controllers\\Ips.php', 79)
+ 2 APPPATH\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp([...], true, 17)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate([...], 17)
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 18:17:06 --> Undefined variable $ip
+in APPPATH\Controllers\Ips.php on line 79.
+ 1 APPPATH\Controllers\Ips.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ip', 'APPPATH\\Controllers\\Ips.php', 79)
+ 2 APPPATH\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp([...], true, 17)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate([...], 17)
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 18:17:12 --> Undefined variable $ip
+in APPPATH\Controllers\Ips.php on line 79.
+ 1 APPPATH\Controllers\Ips.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ip', 'APPPATH\\Controllers\\Ips.php', 79)
+ 2 APPPATH\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp([...], true, 17)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate([...], 17)
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 18:17:13 --> Undefined variable $ip
+in APPPATH\Controllers\Ips.php on line 79.
+ 1 APPPATH\Controllers\Ips.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ip', 'APPPATH\\Controllers\\Ips.php', 79)
+ 2 APPPATH\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp([...], true, 17)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate([...], 17)
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 18:17:13 --> Undefined variable $ip
+in APPPATH\Controllers\Ips.php on line 79.
+ 1 APPPATH\Controllers\Ips.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ip', 'APPPATH\\Controllers\\Ips.php', 79)
+ 2 APPPATH\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp([...], true, 17)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate([...], 17)
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 18:17:14 --> Undefined variable $ip
+in APPPATH\Controllers\Ips.php on line 79.
+ 1 APPPATH\Controllers\Ips.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ip', 'APPPATH\\Controllers\\Ips.php', 79)
+ 2 APPPATH\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp([...], true, 17)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate([...], 17)
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 18:17:49 --> Undefined variable $ip
+in APPPATH\Controllers\Ips.php on line 79.
+ 1 APPPATH\Controllers\Ips.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ip', 'APPPATH\\Controllers\\Ips.php', 79)
+ 2 APPPATH\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp([...], true, 17)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate([...], 17)
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-01 18:18:15 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ip` SET...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ip` SET...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ip` SET...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ip` SET...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(34): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp(Array, 17)
+#6 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp(Array, true, 17)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array, 17)
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#9 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-09-01 18:18:30 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ip` SET...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ip` SET...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ip` SET...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ip` SET...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(34): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp(Array, 17)
+#6 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp(Array, true, 17)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array, 17)
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#9 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-09-01 18:20:25 --> Undefined variable $builder
+in APPPATH\Models\IpModel.php on line 33.
+ 1 APPPATH\Models\IpModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $builder', 'APPPATH\\Models\\IpModel.php', 33)
+ 2 APPPATH\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp([...], 17)
+ 3 APPPATH\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp([...], true, 17)
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate([...], 17)
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-01 18:20:29 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ip` SET...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ip` SET...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ip` SET...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ip` SET...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(34): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp(Array, 17)
+#6 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp(Array, true, 17)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array, 17)
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#9 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-09-01 18:22:00 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ip` SET...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ip` SET...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ip` SET...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ip` SET...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(34): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp(Array, 17)
+#6 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp(Array, true, 17)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array, 17)
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#9 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-09-01 18:22:36 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ip` SET...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ip` SET...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ip` SET...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ip` SET...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(34): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp(Array, 19)
+#6 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp(Array, true, 19)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array, 19)
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#9 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-09-01 18:23:16 --> syntax error, unexpected variable "$builder"
+in APPPATH\Models\IpModel.php on line 33.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\IpModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\IpModel')
+ 3 APPPATH\Controllers\Ips.php(39): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\IpModel')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate('$1', '$2')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-01 18:26:02 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ip` SET...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ip` SET...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ip` SET...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ip` SET...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(35): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp(Array, 19)
+#6 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp(Array, true, 19)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array, 19)
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#9 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-09-01 18:26:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+in APPPATH\Models\IpModel.php on line 33.
+ 1 APPPATH\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp([...], 19)
+ 2 APPPATH\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp([...], true, 19)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate([...], 19)
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-01 18:26:35 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ip` SET...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ip` SET...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ip` SET...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ip` SET...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(34): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp(Array, 19)
+#6 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp(Array, true, 19)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array, 19)
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#9 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-09-01 18:28:10 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ip` SET...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ip` SET...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ip` SET...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ip` SET...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(35): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp(Array, 19)
+#6 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp(Array, true, 19)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array, 19)
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#9 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-09-01 18:29:15 --> Undefined variable $table
+in APPPATH\Models\IpModel.php on line 31.
+ 1 APPPATH\Models\IpModel.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $table', 'APPPATH\\Models\\IpModel.php', 31)
+ 2 APPPATH\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp([...], 19)
+ 3 APPPATH\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp([...], true, 19)
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate([...], 19)
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-01 18:29:20 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ip` SET...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ip` SET...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ip` SET...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ip` SET...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(34): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp(Array, 19)
+#6 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp(Array, true, 19)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array, 19)
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#9 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-09-01 18:29:52 --> syntax error, unexpected token "}"
+in APPPATH\Models\IpModel.php on line 36.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\IpModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\IpModel')
+ 3 APPPATH\Controllers\Ips.php(39): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\IpModel')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate('$1', '$2')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-01 18:29:58 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ip` SET...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ip` SET...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ip` SET...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ip` SET...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(35): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp(Array, 19)
+#6 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp(Array, true, 19)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array, 19)
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#9 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-09-01 18:30:23 --> Undefined array key "ip"
+in APPPATH\Controllers\Ips.php on line 51.
+ 1 APPPATH\Controllers\Ips.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ip"', 'APPPATH\\Controllers\\Ips.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate([...], 19)
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-01 18:30:27 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ip` SET...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ip` SET...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ip` SET...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ip` SET...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(35): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp(Array, 19)
+#6 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp(Array, true, 19)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array, 19)
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#9 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-09-01 18:34:08 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ip` SET...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ip` SET...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ip` SET...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ip` SET...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(35): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp(Array, 19)
+#6 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp(Array, true, 19)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array, 19)
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#9 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-09-01 18:34:45 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ip` SET...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ip` SET...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ip` SET...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ip` SET...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(35): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp(Array, 19)
+#6 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp(Array, true, 19)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array, 19)
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#9 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-09-01 18:34:55 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ip` SET...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ip` SET...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ip` SET...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ip` SET...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(35): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp(Array, 19)
+#6 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp(Array, true, 19)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array, 19)
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#9 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-09-01 18:40:53 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ip` SET...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ip` SET...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ip` SET...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ip` SET...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(35): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp(Array, 19)
+#6 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp(Array, true, 19)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array, 19)
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#9 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-09-01 18:41:33 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ip` SET...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ip` SET...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ip` SET...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ip` SET...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(34): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp(Array, 19)
+#6 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp(Array, true, 19)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array, 19)
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#9 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-09-01 18:43:15 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ip` SET...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ip` SET...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ip` SET...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ip` SET...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(34): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp(Array, 19)
+#6 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp(Array, true, 19)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array, 19)
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#9 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-09-01 18:43:19 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ip` SET...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ip` SET...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ip` SET...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ip` SET...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(34): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp(Array, 19)
+#6 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp(Array, true, 19)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array, 19)
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#9 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-09-01 18:43:25 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ip` SET...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ip` SET...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ip` SET...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ip` SET...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(34): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp(Array, 19)
+#6 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp(Array, true, 19)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array, 19)
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#9 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-09-01 18:43:25 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ip` SET...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ip` SET...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ip` SET...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ip` SET...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(34): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp(Array, 19)
+#6 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp(Array, true, 19)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array, 19)
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#9 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-09-01 18:43:26 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ip` SET...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ip` SET...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ip` SET...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ip` SET...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(34): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp(Array, 19)
+#6 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp(Array, true, 19)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array, 19)
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#9 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-09-01 18:43:26 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ip` SET...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ip` SET...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ip` SET...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ip` SET...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(34): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp(Array, 19)
+#6 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp(Array, true, 19)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array, 19)
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#9 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-09-01 18:43:26 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ip` SET...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ip` SET...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ip` SET...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ip` SET...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(34): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp(Array, 19)
+#6 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp(Array, true, 19)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array, 19)
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#9 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-09-01 18:43:26 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ip` SET...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ip` SET...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ip` SET...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ip` SET...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(34): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp(Array, 19)
+#6 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp(Array, true, 19)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array, 19)
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#9 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-09-01 18:43:27 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ip` SET...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ip` SET...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ip` SET...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ip` SET...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(34): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp(Array, 19)
+#6 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp(Array, true, 19)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array, 19)
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#9 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-09-01 18:43:27 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ip` SET...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ip` SET...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ip` SET...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ip` SET...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(34): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp(Array, 19)
+#6 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp(Array, true, 19)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array, 19)
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#9 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-09-01 18:43:27 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ip` SET...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ip` SET...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ip` SET...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ip` SET...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(34): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp(Array, 19)
+#6 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp(Array, true, 19)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array, 19)
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#9 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-09-01 18:43:28 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ip` SET...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ip` SET...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ip` SET...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ip` SET...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(34): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp(Array, 19)
+#6 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp(Array, true, 19)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array, 19)
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#9 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-09-01 18:43:28 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ip` SET...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ip` SET...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ip` SET...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ip` SET...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(34): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp(Array, 19)
+#6 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp(Array, true, 19)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array, 19)
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#9 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-09-01 18:43:57 --> Undefined variable $table
+in APPPATH\Models\IpModel.php on line 31.
+ 1 APPPATH\Models\IpModel.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $table', 'APPPATH\\Models\\IpModel.php', 31)
+ 2 APPPATH\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp([...], 19)
+ 3 APPPATH\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp([...], true, 19)
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate([...], 19)
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-01 18:44:05 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ip` SET...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ip` SET...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ip` SET...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ip` SET...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(34): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp(Array, 19)
+#6 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp(Array, true, 19)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array, 19)
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#9 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-09-01 18:45:41 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Models\IpModel.php on line 36.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\IpModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\IpModel')
+ 3 APPPATH\Controllers\Ips.php(39): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\IpModel')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate('$1', '$2')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-01 18:46:05 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ip-project\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ip` SET...', 0)
+#1 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ip` SET...')
+#2 C:\xampp\htdocs\ip-project\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ip` SET...')
+#3 C:\xampp\htdocs\ip-project\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `ip` SET...', Array, false)
+#4 C:\xampp\htdocs\ip-project\app\Models\IpModel.php(35): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(79): App\Models\IpModel->insertOrUpdateIp(Array, 19)
+#6 C:\xampp\htdocs\ip-project\app\Controllers\Ips.php(57): App\Controllers\Ips->validInsertOrUpdateIp(Array, true, 19)
+#7 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(904): App\Controllers\Ips->insertOrUpdate(Array, 19)
+#8 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ips))
+#9 C:\xampp\htdocs\ip-project\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ip-project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ip-project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
