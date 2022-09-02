@@ -63,7 +63,7 @@
             <td><?php echo $ip->fecha_desbloqueo; ?></td>
             <td>      
             <th><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mimodal">Editar</button></th>  
-            <th><button type="button" class="btn btn-info">Desbloqueo</button></th>
+            <th><button type="button" class="btn btn-info">Desbloquear</button></th>
             </td>
             </tr>
             <?php
@@ -103,7 +103,11 @@
     <label for="inputState" class="form-label">Categoria</label>
     <select id="inputState" class="form-select">
       <option selected>Choose...</option>
-      <option>...</option>
+      <option>Acceso no autorizado</option>
+      <option>Aplicación comprometida</option>
+      <option>Denegación de servicio (DoS)</option>
+      <option>Sabotaje</option>
+      <option>Uso no autorizado de recursos</option>
     </select>
   </div>
   
@@ -119,7 +123,8 @@
     <label for="inputState" class="form-label">Estado</label>
     <select id="inputState" class="form-select">
       <option selected>Choose...</option>
-      <option>...</option>
+      <option>Bloqueada</option>
+      <option>Desbloqueada</option>
     </select>
   </div>
   
