@@ -68,4 +68,3 @@ background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 
 </section>
     
   </body>
-</html>
