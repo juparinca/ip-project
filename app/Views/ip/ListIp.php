@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en">  
+<?php  // include '../forms/Form2'; ?>
+ 
 
 <head>
     <meta charset="UTF-8">
@@ -9,9 +11,11 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+       
 </head>
 
 <body class="container-fluid mt-4">
+    <?php include 'Form.php'; ?>
     <center>
         <h2>Network monitoring</h2>
     </center>
@@ -50,7 +54,7 @@
             </tr>
         </thead>
         <tbody>
-            <?php foreach ($ips as $ip) { ?>
+            <?php foreach ($ips as $ip) { ?>    
             <td><?php echo $ip->ip; ?></td>
             <td><?php echo $ip->nomb_pais; ?></td>
             <td><?php echo $ip->num_reporte; ?></td>
@@ -60,14 +64,12 @@
             <td><?php echo $ip->estado; ?></td>
             <td><?php echo $ip->fecha_desbloqueo; ?></td>
             <td>   
-            <th><button type="button" class="btn btn-primary">Editar</button></th>
-            <th><button type="button" class="btn btn-info">Desbloqueo</button></th>
+                     
+            <th><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mimodal">Editar</button></th>  
+            <th><button type="button" class="btn btn-info">Desbloquear</button></th>
             </td>
             </tr>
             <?php
-}?>
+            }?>
         </tbody>
     </table>
-</body>
-
-</html>

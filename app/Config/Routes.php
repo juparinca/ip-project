@@ -55,3 +55,4 @@ if (is_file(APPPATH.'Config/'.ENVIRONMENT.'/Routes.php')) {
 }
 $routes->get('listIp', 'Ips::index');
 $routes->get('insertIp', 'Ips::insertOrUpdate/$1/$2');
+$routes->get('form', 'Ips::modal');
