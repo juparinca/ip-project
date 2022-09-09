@@ -18,6 +18,11 @@ class Ips extends Controller
         return view('ip/ListIp', $this->getAllIpWithJoin());
     }
 
+    public function modal()
+    {
+        return view('forms/Form', $this->getAllIpWithJoin());
+    }
+
     public function getAllIp()
     {
         $ip = new IpModel();
