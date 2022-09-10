@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">  
-<?php  // include '../forms/Form2'; ?>
+<?php // include '../forms/Form2';?>
  
 
 <head>
@@ -15,7 +15,8 @@
 </head>
 
 <body class="container-fluid mt-4">
-    <?php include 'Form.php'; ?>
+
+    <?php echo $this->include('forms/Form'); ?>
     <center>
         <h2>Network monitoring</h2>
     </center>
@@ -27,7 +28,7 @@
     <nav class="navbar navbar-dark bg-primary">
         <div class="container-fluid">
             <div class="p-2">
-                <button type="button" class="btn btn-success">Registrar Ip</button>
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#mimodal">Registrar Ip</button>
                 <button type="button" class="btn btn-secondary">Depurar Lista</button>
             </div>
             <form class="d-flex">

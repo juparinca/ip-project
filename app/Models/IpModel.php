@@ -20,7 +20,7 @@ class IpModel extends Model
         $query = $db->query('SELECT ip, (SELECT nomb_pais FROM paises as p WHERE p.id_pais = i.id_pais ) as nomb_pais, 
         num_reporte, (SELECT nomb_categoria FROM categorias as c WHERE c.id_categoria = i.id_categoria) as nomb_categoria, fecha_reporte, fecha_bloqueo, 
         (SELECT estado FROM estados as e WHERE e.id_estado = i.id_estado) as estado, fecha_desbloqueo
-        FROM ip as i;');
+        FROM ip as i ORDER BY id_ip DESC;');
 
         return $query->getResult();
     }

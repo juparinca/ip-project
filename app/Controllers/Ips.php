@@ -3,6 +3,9 @@
 namespace App\Controllers;
 
 use App\Models\IpModel;
+use App\Models\CategoryModel;
+use App\Models\CountryModel;
+use App\Models\StateModel;
 use CodeIgniter\Controller;
 
 class Ips extends Controller
@@ -15,12 +18,12 @@ class Ips extends Controller
 
     public function index()
     {
-        return view('ip/ListIp', $this->getAllIpWithJoin());
-    }
+        $datos['ips'] = $this->getAllIpWithJoin();
+        $datos['categories'] = $this->getCategories();
+        $datos['countries'] = $this->getCountries();
+        $datos['states'] = $this->getStates();
 
-    public function modal()
-    {
-        return view('forms/Form', $this->getAllIpWithJoin());
+        return view('ip/ListIp', $datos);
     }
 
     public function getAllIp()
@@ -34,13 +37,14 @@ class Ips extends Controller
     public function getAllIpWithJoin()
     {
         $ip = new IpModel();
-        $datos['ips'] = $ip->getAllIpWithJoin();
 
-        return $datos;
+        return $ip->getAllIpWithJoin();
     }
 
-    public function insertOrUpdate($data, $id = false)
+    public function insertOrUpdate($id = false)
     {
+        $request = \Config\Services::request();
+        $data = $request->getPost();
         $ip = new IpModel();
         //Ejemplo de data a insert o update
         /* $id = 19;
@@ -79,11 +83,32 @@ class Ips extends Controller
         if (!$exist) {
             $ip->insertOrUpdateIp($data);
 
-            return 'El registro se ha insertado/actualizado con éxito';
+        //return 'El registro se ha insertado/actualizado con éxito';
         } else {
             $ip->insertOrUpdateIp($data, $id);
 
-            return 'El registro se ha actualizado con éxito';
+            //return 'El registro se ha actualizado con éxito';
         }
+    }
+
+    public function getCategories()
+    {
+        $category = new CategoryModel();
+
+        return $category->getCategories();
+    }
+
+    public function getCountries()
+    {
+        $country = new CountryModel();
+
+        return $country->getCountries();
+    }
+
+    public function getStates()
+    {
+        $state = new StateModel();
+
+        return $state->getStates();
     }
 }

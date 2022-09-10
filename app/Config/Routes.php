@@ -55,4 +55,6 @@ if (is_file(APPPATH.'Config/'.ENVIRONMENT.'/Routes.php')) {
 }
 $routes->get('listIp', 'Ips::index');
 $routes->get('insertIp', 'Ips::insertOrUpdate/$1/$2');
-$routes->get('form', 'Ips::modal');
+$routes->get('categories', 'CategoryController::getCategories');
+$routes->get('forms', 'CategoryController::getCategories');
+$routes->post('createIp', 'Ips::insertOrUpdate');
