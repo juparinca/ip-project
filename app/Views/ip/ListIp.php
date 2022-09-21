@@ -22,7 +22,7 @@
     </center>
     <div class="nav justify-content-end">
 
-        <button type="button" class="btn btn-danger mb-3">Cerrar sesión</button>
+        <a href="<?php echo base_url('/exit'); ?>" type="button" class="btn btn-danger mb-3">Cerrar sesión</a>
     </div>
 
     <nav class="navbar navbar-dark bg-primary">

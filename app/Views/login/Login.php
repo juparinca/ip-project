@@ -30,18 +30,18 @@ background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 
           <div class="card-body p-5 text-center">
 
             <div class="mb-md-5 mt-md-4 pb-5">
-<form>
+<form action="<?php echo base_url('login'); ?>" method="POST">
               <h2 class="fw-bold mb-2 text-uppercase">Login</h2>
               <p class="text-white-50 mb-5">Porfavor Ingrese su Usuario y Contraseña!</p>
 
               <div class="form-outline form-white mb-4">
-                <input type="varchar" id="typeVarchar" class="form-control form-control-lg" />
-                <label class="form-label" for="typeVarchar">Usuario</label>
+                <input type="text" id="usuario" class="form-control form-control-lg" name="usuario"/>
+                <label class="form-label" for="usuario">Usuario</label>
               </div>
 
               <div class="form-outline form-white mb-4">
-                <input type="password" id="typePasswordX" class="form-control form-control-lg" />
-                <label class="form-label" for="typePasswordX">Password</label>
+                <input type="password" id="password" class="form-control form-control-lg" name="password"/>
+                <label class="form-label" for="password">Password</label>
               </div>
 
               <p class="small mb-5 pb-lg-2"><a class="text-white-50" href="#!">Forgot password?</a></p>
@@ -68,3 +68,4 @@ background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 
 </section>
     
   </body>
+</html>
