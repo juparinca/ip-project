@@ -40,7 +40,7 @@
 
     <table class="table">
         <thead>
-            <tr class="table-dark">
+            <tr class="table-dark" style="position: sticky; top: 0;">
                 <th scope="col">IP</th>
                 <th scope="col">País</th>
                 <th scope="col"># Reporte</th>
@@ -50,8 +50,7 @@
                 <th scope="col">Estado</th>
                 <th scope="col">Fecha desbloqueo</th>
                 <th scope="col"></th>
-                <th scope="col"></th>
-                <th scope="col"></th>
+                <th colspan="2" text-align: center>Opciones</th>
             </tr>
         </thead>
         <tbody>
