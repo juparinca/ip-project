@@ -44,6 +44,16 @@ background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 
                 <label class="form-label" for="password">Password</label>
               </div>
 
+              <div class="form-outline form-white mb-4">
+                <input type="text" id="nombrekey" class="form-control form-control-lg" name="nombrekey"/>
+                <label class="form-label" for="nombrekey">Nombre Key</label>
+              </div>
+
+              <div class="form-outline form-white mb-4">
+                <input type="text" id="valorkey" class="form-control form-control-lg" name="valorkey"/>
+                <label class="form-label" for="valorkey">Valor Key</label>
+              </div>
+
               <p class="small mb-5 pb-lg-2"><a class="text-white-50" href="#!">Forgot password?</a></p>
 
               <button class="btn btn-outline-light btn-lg px-5" type="submit">Ingresar</button>
