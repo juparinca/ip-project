@@ -8,7 +8,7 @@ namespace App\Models;
     {
         public function obtenerUsuario($data)
         {
-            $Usuario = $this->db->table('usuarios');
+            $Usuario = $this->db->table('Usuarios');
             $Usuario->where($data);
 
             return $Usuario->get()->getResultArray();
