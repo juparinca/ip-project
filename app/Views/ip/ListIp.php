@@ -15,11 +15,15 @@
 </head>
 
 <body class="container-fluid mt-4">
-
+    <?php
+        $session = session();
+    ?>
     <?php echo $this->include('forms/Form'); ?>
     <center>
         <h2>Network monitoring</h2>
     </center>
+    
+    <span class="badge bg-info text-dark">Usuario: <?php echo $session->get("usuario");?></span></span>
     <div class="nav justify-content-end">
 
         <a href="<?php echo base_url('/exit'); ?>" type="button" class="btn btn-danger mb-3">Cerrar sesión</a>
