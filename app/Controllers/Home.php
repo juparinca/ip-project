@@ -28,7 +28,7 @@ class Home extends BaseController
         if (count($datosUsuario) > 0 && $password == $datosUsuario[0]['contraseña']) {
             $data = [
                 'usuario' => $datosUsuario[0]['nomb_usuario'],
-                'type' => $datosUsuario[0]['id_estado_usuario'],
+                'type' => $datosUsuario[0]['id_rol_usuario'],
             ];
             $session = session();
             $session->set($data);

@@ -23,7 +23,8 @@
         <h2>Network monitoring</h2>
     </center>
     
-    <span class="badge bg-info text-dark">Usuario: <?php echo $session->get("usuario");?></span></span>
+    <span class="badge bg-info text-dark">Usuario: <?php echo $session->get("usuario");?></span>
+    <span class="badge bg-info text-dark">Rol: <?php echo $session->get("type"); ?></span>
     <div class="nav justify-content-end">
 
         <a href="<?php echo base_url('/exit'); ?>" type="button" class="btn btn-danger mb-3">Cerrar sesión</a>
