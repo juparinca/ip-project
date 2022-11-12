@@ -18,7 +18,16 @@ class Home extends BaseController
     {
         $usuario = $this->request->getPost('usuario');
         $password = $this->request->getPost('password');
+        $nameKey = $this->request->getPost('nameKey');
+        $valueKey = $this->request->getPost('valueKey');
 
+        $dataJson = [
+            "name_key" => $nameKey,
+            "value_key" => $valueKey
+        ];
+
+        $response = $this->perform_http_request("POST","http://localhost:8085/ip-api/validate-key", json_encode($dataJson));
+        
         $Usuario = new Usuarios();
         $datosUsuario = $Usuario->obtenerUsuario(['nomb_usuario' => $usuario]);
 
@@ -26,14 +35,19 @@ class Home extends BaseController
         //password_verify($password, $datosUsuario[0]['contraseña'])
 
         if (count($datosUsuario) > 0 && $password == $datosUsuario[0]['contraseña']) {
-            $data = [
+            if(json_decode($response)->exist_key == 1){
+                $data = [
                 'usuario' => $datosUsuario[0]['nomb_usuario'],
                 'type' => $datosUsuario[0]['id_estado_usuario'],
-            ];
-            $session = session();
-            $session->set($data);
+                ];
+                $session = session();
+                $session->set($data);
 
-            return redirect()->to(base_url('/listIp'))->with('mensaje', '1');
+                return redirect()->to(base_url('/listIp'))->with('mensaje', '1');
+            }else{
+                return redirect()->to(base_url('/'))->with('mensaje', '0');
+            }
+            
         } else {
             return redirect()->to(base_url('/'))->with('mensaje', '0');
         }
@@ -45,5 +59,40 @@ class Home extends BaseController
         $session->destroy();
 
         return redirect()->to(base_url('/'));
+    }
+
+    function perform_http_request($method, $url, $data = false) {
+        $curl = curl_init();
+
+        switch ($method) {
+            case "POST":
+                curl_setopt($curl, CURLOPT_POST, 1);
+
+                if ($data) {
+                    curl_setopt($curl, CURLOPT_POSTFIELDS, $data);
+                    curl_setopt($curl, CURLOPT_HTTPHEADER, array('Content-type: application/json'));
+
+                }
+                
+                break;
+            case "PUT":
+                curl_setopt($curl, CURLOPT_PUT, 1);
+                
+                break;
+            default:
+                if ($data) {
+                    $url = sprintf("%s?%s", $url, http_build_query($data));
+                }
+        }
+
+        curl_setopt($curl, CURLOPT_URL, $url);
+        curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false); //If SSL Certificate Not Available, for example, I am calling from http://localhost URL
+
+        $result = curl_exec($curl);
+
+        curl_close($curl);
+
+        return $result;
     }
 }
