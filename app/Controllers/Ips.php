@@ -118,12 +118,13 @@ class Ips extends Controller
         $request = \Config\Services::request();
         $data = $request->getPost();
 
-        $pepe = $data['valorIp'];
+        $valueIp = $data['valorIp'];
         // var_dump($dataIp);
         
         $ip = new IpModel();
 
-        $ip->callProcedure($pepe);
-        // return view('ip/ListIp');
+        $ip->callProcedure($valueIp);
+        //return view('ip/ListIp');
+        return redirect()->to(base_url('/listIp'));
     }
 }

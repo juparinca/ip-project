@@ -52,14 +52,7 @@ class IpModel extends Model
     {
         $db = db_connect();
 
-        //$data = $this->db->call_function('desbloquear', $dataIp);
-
         $qry_res = $this->db->query("CALL desbloquear('{$dataIp}');");
-        //$res = $qry_res->result();
 
-        header('Location: '.base_url('/listIp'));
-
-        die();
-        //return $data;
     }
 }
