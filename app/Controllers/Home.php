@@ -25,7 +25,21 @@ class Home extends BaseController
         //TODO:: Las contraseñas deben manejar con hash
         //password_verify($password, $datosUsuario[0]['contraseña'])
 
-        if (count($datosUsuario) > 0 && $password == $datosUsuario[0]['contraseña']) {
+        if (count($datosUsuario) > 0 && $password == $datosUsuario[0]->contraseña) {
+            $data = [
+                'usuario' => $datosUsuario[0]->nomb_usuario,
+                'type' => $datosUsuario[0]->id_rol_usuario,
+                'nrol' => $datosUsuario[0]->nomb_rol
+            ];
+            $session = session();
+            $session->set($data);
+
+            return redirect()->to(base_url('/listIp'))->with('mensaje', '1');
+        } else {
+            return redirect()->to(base_url('/'))->with('mensaje', '0');
+        }
+
+        /*if (count($datosUsuario) > 0 && $password == $datosUsuario[0]['contraseña']) {
             $data = [
                 'usuario' => $datosUsuario[0]['nomb_usuario'],
                 'type' => $datosUsuario[0]['id_rol_usuario'],
@@ -36,7 +50,7 @@ class Home extends BaseController
             return redirect()->to(base_url('/listIp'))->with('mensaje', '1');
         } else {
             return redirect()->to(base_url('/'))->with('mensaje', '0');
-        }
+        }*/
     }
 
     public function exit()

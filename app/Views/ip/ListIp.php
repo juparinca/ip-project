@@ -24,7 +24,7 @@
     </center>
     
     <span class="badge bg-info text-dark">Usuario: <?php echo $session->get("usuario");?></span>
-    <span class="badge bg-info text-dark">Rol: <?php echo $session->get("type"); ?></span>
+    <span class="badge bg-info text-dark">Rol: <?php echo $session->get("nrol"); ?></span>
     <div class="nav justify-content-end">
 
         <a href="<?php echo base_url('/exit'); ?>" type="button" class="btn btn-danger mb-3">Cerrar sesión</a>
@@ -59,7 +59,7 @@
             </tr>
         </thead>
         <tbody>
-            <?php foreach ($ips as $ip) { ?>    
+            <?php foreach ($ips as $ip) { ?>
             <td><?php echo $ip->ip; ?></td>
             <td><?php echo $ip->nomb_pais; ?></td>
             <td><?php echo $ip->num_reporte; ?></td>
@@ -69,9 +69,14 @@
             <td><?php echo $ip->estado; ?></td>
             <td><?php echo $ip->fecha_desbloqueo; ?></td>
             <td>   
-                     
-            <th><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mimodal">Editar</button></th>  
-            <th><button type="button" class="btn btn-info">Desbloquear</button></th>
+            <th><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mimodal">Editar</button></th>
+            <th>
+                <form action="<?php echo site_url('desbloquear'); ?>" method="post">
+                    <input type="hidden" name="valorIp" value="<?php echo $ip->ip ?>" />
+                    <button type="submit" class="btn btn-info">Desbloquear</button>
+                </form>    
+            </th>
+            <!-- th><button type="button" class="btn btn-info">Desbloquear</button></th> -->
             </td>
             </tr>
             <?php

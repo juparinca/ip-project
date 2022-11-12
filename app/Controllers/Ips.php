@@ -111,4 +111,19 @@ class Ips extends Controller
 
         return $state->getStates();
     }
+
+    public function cProcedure()
+    {
+
+        $request = \Config\Services::request();
+        $data = $request->getPost();
+
+        $pepe = $data['valorIp'];
+        // var_dump($dataIp);
+        
+        $ip = new IpModel();
+
+        $ip->callProcedure($pepe);
+        // return view('ip/ListIp');
+    }
 }

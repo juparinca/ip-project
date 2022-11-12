@@ -58,6 +58,7 @@ $routes->get('/insertIp', 'Ips::insertOrUpdate/$1/$2');
 $routes->get('/categories', 'CategoryController::getCategories');
 $routes->get('/forms', 'CategoryController::getCategories');
 $routes->post('/createIp', 'Ips::insertOrUpdate');
+$routes->post('/desbloquear', 'Ips::cProcedure');
 
 $routes->post('/login', 'Home::login');
 $routes->get('/exit', 'Home::exit');
